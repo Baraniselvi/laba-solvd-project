@@ -29,7 +29,7 @@ public class SavingsAccount extends Account implements TransactionLog, Payments 
             balance = balance - amount;
             System.out.println("Withdrawn amount" + amount);
         } else {
-            System.out.println("Insufficient fund in account");
+            System.out.println(" Insufficient fund in account ");
         }
 
 
@@ -66,32 +66,32 @@ public class SavingsAccount extends Account implements TransactionLog, Payments 
 
         try {
             if (amount > balance) {
-                throw new InsufficientFundException("Insufficient funds");
+                throw new InsufficientFundException(" Insufficient funds ");
 
             }
 
         } catch (InsufficientFundException e) {
-            System.out.println("Insufficient funds for withdrawal" + e.getMessage());
+            System.out.println(" Insufficient funds for withdrawal " + e.getMessage());
         }
         try {
             if (amount == -1) {
-                throw new NegativeAmountException("Negative Amount");
+                throw new NegativeAmountException(" Negative Amount ");
             }
 
         } catch (NegativeAmountException e) {
-            System.out.println("Negative amount " + e.getMessage());
+            System.out.println(" Negative amount  " + e.getMessage());
         }
         try {
             if (amount < 1) {
-                throw new InvalidAmountException("Invalid Amount");
+                throw new InvalidAmountException(" Invalid Amount ");
             }
 
         } catch (InvalidAmountException e) {
-            System.out.println("Invalid amount" + e.getMessage());
+            System.out.println(" Invalid amount " + e.getMessage());
         }
         try {
             if (getBalance() <= 0) {
-                throw new AccountNotFoundException("Invalid Account number");
+                throw new AccountNotFoundException(" Invalid Account number ");
             }
         } catch (AccountNotFoundException e) {
             throw new RuntimeException(e);

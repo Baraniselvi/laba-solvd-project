@@ -5,11 +5,22 @@ import java.util.Date;
 
 
 public class Transaction {
-    protected double balance;
-    public Date date;
+    private double balance;
+
+    public Transaction(double balance) {
+        this.balance = balance;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
 
     void checkbalance()
     {
-        System.out.println("Current Balance" + "as on" + date);
+        System.out.println("Current Balance " +getBalance());
     }
 }

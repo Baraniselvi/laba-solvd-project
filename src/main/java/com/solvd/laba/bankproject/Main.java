@@ -10,6 +10,7 @@ import com.solvd.laba.bankproject.exceptions.NegativeAmountException;
 import com.solvd.laba.bankproject.loan.PersonalLoan;
 import com.solvd.laba.bankproject.person.Customer;
 import com.solvd.laba.bankproject.person.Employee;
+import com.solvd.laba.bankproject.person.Person;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.apache.log4j.BasicConfigurator;
@@ -33,8 +34,26 @@ public class Main {
         ArrayList<Location> locations = new ArrayList<Location>();
 
 
+
+
+
+
+        Transaction transaction = new Transaction(233344);
+        transaction.checkbalance();
+
+        Location location = new Location(" Dallas "," USA "," 93833373773 ");
+        logger.info(location.getLocationInfo());
+
+
+
+
         CheckingAccount checkingAccount = new CheckingAccount("12333", 34444, 500);
         checkingAccount.getOverdraftlimit();
+        Location location1 = new Location(" Neenah ", " USA ", " 929393399 ");
+        location1.getLocationInfo();
+
+        PersonalLoan personalLoan = new PersonalLoan("Chase", 7980, 1.7);
+        personalLoan.calculateInterest();
 
 
         try {
@@ -86,11 +105,7 @@ public class Main {
         }
 
 
-        Location location = new Location("Neenah", "USA", "929393399");
-        logger.info(location.getLocationInfo());
 
-        PersonalLoan personalLoan = new PersonalLoan("Chase", 7980, 1.7);
-        personalLoan.calculateInterest();
 
     }
 }

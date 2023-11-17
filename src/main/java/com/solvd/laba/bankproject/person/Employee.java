@@ -72,7 +72,7 @@ public class Employee extends Person implements Iwork, CustomerService {
 
     @Override
     public void work() {
-        System.out.println("I am an employee");
+        System.out.println("I am an employee in customerservice");
     }
 
     @Override
