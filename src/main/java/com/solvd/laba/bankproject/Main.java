@@ -18,7 +18,7 @@ import org.apache.log4j.BasicConfigurator;
 import java.util.ArrayList;
 
 public class Main {
-    private static final Logger logger =LogManager.getLogger(Main.class);
+    private static final Logger logger =LogManager.getLogger(Main.class);git
 
 
     public static void main(String[] args) {
