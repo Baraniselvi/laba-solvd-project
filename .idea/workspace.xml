@@ -4,38 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f913cff9-6f02-4fb2-9873-bd37a544eb7d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/LocationInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/TransactionLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/accounts/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/accounts/CheckingAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/accounts/SavingsAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/bank/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/bank/BankName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/customer/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/exceptions/AccountNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/exceptions/InsufficientFundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/exceptions/InvalidAmountException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/exceptions/NegativeAmountException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/loan/PersonalLoan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/person/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/person/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/person/Iwork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/person/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/transactions/Payments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/laba/homeworkassigment/MergeSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/laba/homeworkassigment/MergeSort.java" afterDir="false" />
+    <list default="true" id="f913cff9-6f02-4fb2-9873-bd37a544eb7d" name="Changes" comment="Maven commit">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +62,7 @@
       <recent name="C:\Users\baran\IdeaProjects\laba-solvd--project\target\classes\mergesort" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\baran\IdeaProjects\laba-solvd--project\src\main\resources" />
       <recent name="C:\Users\baran\IdeaProjects\laba-solvd--project\target\classes\mergesort" />
     </key>
   </component>
@@ -98,7 +72,7 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="Maven.laba-solvd--project [compile]">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.solvd.laba.bankproject.Main" />
       <module name="laba-solvd--project" />
@@ -198,9 +172,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Maven.laba-solvd--project [compile]" />
         <item itemvalue="Maven.laba-solvd--project [package]" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.com.solvd.laba.homeworkassigment.MergeSort" />
         <item itemvalue="Application.homeworkassignment.MergeSort" />
       </list>
@@ -215,9 +189,20 @@
       <option name="presentableId" value="Default" />
       <updated>1700184072194</updated>
     </task>
+    <task id="LOCAL-00001" summary="Maven commit">
+      <option name="closed" value="true" />
+      <created>1700204813069</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700204813069</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Maven commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Maven commit" />
   </component>
 </project>
