@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f913cff9-6f02-4fb2-9873-bd37a544eb7d" name="Changes" comment="logger">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/exceptions/WithdrawalLimitExceedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/accounts/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/accounts/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/accounts/SavingsAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/accounts/SavingsAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/exceptions/InsufficientFundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/exceptions/InsufficientFundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/exceptions/InvalidAmountException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/exceptions/InvalidAmountException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/loan/PersonalLoan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/loan/PersonalLoan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/person/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/person/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/person/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/person/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/transactions/Payments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solvd/laba/bankproject/transactions/Payments.java" afterDir="false" />
-    </list>
+    <list default="true" id="f913cff9-6f02-4fb2-9873-bd37a544eb7d" name="Changes" comment="Stringutils" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -243,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701065925611</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Stringutils">
+      <option name="closed" value="true" />
+      <created>1701150754508</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701150754508</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,6 +253,7 @@
     <MESSAGE value="Maven commit" />
     <MESSAGE value="POM XML" />
     <MESSAGE value="logger" />
-    <option name="LAST_COMMIT_MESSAGE" value="logger" />
+    <MESSAGE value="Stringutils" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stringutils" />
   </component>
 </project>
